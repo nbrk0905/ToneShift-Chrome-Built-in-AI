@@ -64,3 +64,12 @@ MIT License
 
 ## Watch the live demo here:
 👉 YouTube Demo: https://youtu.be/dBmUFzYAkEM
+## Judges’ Testing Instructions
+1. Clone the repo
+2. Open Chrome → chrome://extensions/ → Load Unpacked → Select project folder
+3. Enable Prompt API flags in Chrome Canary
+4. Open any webpage → Select text → Choose tone → Observe rewritten output
+## Privacy Note
+ToneShift performs all rewriting locally using Gemini Nano, ensuring zero data transmission to external servers.
+## Built For:
+Google Chrome Built-in AI Challenge 2025
