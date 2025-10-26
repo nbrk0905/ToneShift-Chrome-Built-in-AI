@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToneShift</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Google Sans", sans-serif; width: 220px; padding: 10px; }
+    h3 { font-family: "Google Sans", sans-serif; margin-top: 0; margin-bottom: 8px; text-align: center; color: #202124; }
+    select, button { 
+      width: 100%; 
+      margin-top: 10px; 
+      padding: 10px; 
+      box-sizing: border-box; 
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    select { border: 1px solid #ccc; }
+    button { 
+      border: none; 
+      background: #1a73e8; 
+      color: white; 
+      cursor: pointer; 
+    }
+    button:hover { background: #1765cc; }
+  </style>
+</head>
+<body>
+  <h3>ToneShift</h3>
+  <strong>Select Tone:</strong>
+  <select id="tone">
+    <option value="Formal">Formal</option>
+    <option value="Casual">Casual</option>
+    <option value="Friendly">Friendly</option>
+  </Tselect>
+  <button id="apply">Rewrite Selected Text</button>
+  <script src="popup.js"></script>
+</body>
+</html>
